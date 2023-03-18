@@ -23,15 +23,18 @@
   }
   .search-bar{
     width: 200px;
-    border: 1px solid #57606A;
+    border: 1px solid #ffff;
     padding: 7px 30px;
     border-radius: 5px;
     margin-left: 30px;
     color:rgb(255, 255, 255);
     background-color: rgb(36, 41, 47);
-
   }
- 
+  hr{
+    height: 1px;
+    border:none;
+    background-color: #ccc;
+  }
   .list-items{
     display: flex;
     flex-direction: row;

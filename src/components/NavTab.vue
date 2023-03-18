@@ -1,6 +1,6 @@
 <template>
   <nav class="nav-bar">
-    <img alt="gitbub logo" src="./../assets/github.png" class="logo" />
+    <img alt="github logo" src="./../assets/github.png" class="logo" />
     <input type="text" class="search-bar" placeholder="search or jump to..." />
     <div class="list-items">
       <a href="#">Pull requests</a>
