@@ -1,27 +1,27 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   <NavTab />
-  <HomePage />
-  <!-- <Router-view: page="page" :repos="repos" @update="updatePage"></Router-view:> -->
+  <!-- <HomePage /> -->
+  <router-view></router-view>
+  <!-- <RepoData /> -->
+  <!-- <ErrorPage /> -->
 </template>
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import NavTab from "./components/NavTab";
 import "./App.css";
-import HomePage from "./components/Home-page.vue";
-// import repoData from "./components/repoData";
-// import errorPage from "./components/errorPage";
+// import HomePage from "./components/Home-page.vue";
+// import RepoData from "./components/RepoData";
+// import ErrorPage from "./components/ErrorPage";
 
 export default {
   name: "App",
   components: {
     // HelloWorld,
     NavTab,
-    HomePage,
-    // repoData,
-    // errorPage,
+    // HomePage,
+    // RepoData,
+    // ErrorPage,
   },
   // data() {
   //   return {
