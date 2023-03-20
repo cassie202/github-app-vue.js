@@ -183,12 +183,13 @@ hr {
 }
 .edit-btn {
   width: 250px;
-  background-color: #f6f8fa;
+  background-color: #24292F;
   border: 1px solid #ccc;
   padding: 8px 20px;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  color: #ffff;
 }
 .follow {
   display: flex;
@@ -253,6 +254,8 @@ span {
   color: rgb(255, 255, 255);
   font-weight: 700;
   cursor: pointer;
+  border:none;
+  border-radius: 5px;
 }
 .next-btn {
   padding: 4px 10px;
@@ -260,9 +263,13 @@ span {
   color: rgb(255, 255, 255);
   font-weight: 700;
   cursor: pointer;
+  border:none;
+  border-radius: 5px;
 }
 .view-repo-btn {
   cursor: pointer;
   border-radius: 30px;
+  border:none;
+  margin-left:5px;
 }
 </style>

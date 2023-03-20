@@ -35,11 +35,13 @@ export default {
 
  }
  .back-to-home{
-    padding: 4px 10px;
+    padding: 8px 15px;
     background-color: rgb(255, 255, 255);
     color: #24292f;
     font-weight: 700;
     cursor: pointer;
     margin: 100px 500px;
+    border: none;
+    border-radius: 5px;
  }
 </style>

@@ -84,12 +84,14 @@ this.repo = singleRepo
    margin-bottom: 0;
 }
 .back-to-home{
-  padding: 4px 10px;
+  padding: 9px 15px;
   background-color: #F6F8FA; 
   color: #24292f;
   font-weight: 700;
   cursor: pointer;
   margin: 50px 500px;
+  border-radius: 5px;
+  border: none;
 }
 .wrong--id{
  margin: 0;
